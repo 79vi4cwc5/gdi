@@ -187,8 +187,8 @@ function nav(path) {
     var search_bar = `
 </ul>
 <form class="d-flex" method="get" action="/${cur}:search">
-<input class="form-control me-2" name="q" type="search" placeholder="Search..." aria-label="Search" value="${search_text}" required>
-<button class="btn ${UI.search_button_class}" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit"><span class="iconify" data-icon="line-md:search" data-width="24" data-height="24"></span></button>
+<input class="form-control me-2" name="q" type="search" placeholder="Search does not work" aria-label="Search" value="${search_text}" required disabled>
+<button class="btn ${UI.search_button_class}" onclick="if($('#search_bar_form>input').val()) $('#search_bar_form').submit();" type="submit" disabled><span class="iconify" data-icon="line-md:search" data-width="24" data-height="24"></span></button>
 </form>
 </div>
 </div>
